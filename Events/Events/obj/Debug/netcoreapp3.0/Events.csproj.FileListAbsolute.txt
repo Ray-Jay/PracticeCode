@@ -1,0 +1,11 @@
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\bin\Debug\netcoreapp3.0\Events.exe
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\bin\Debug\netcoreapp3.0\Events.deps.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\bin\Debug\netcoreapp3.0\Events.runtimeconfig.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\bin\Debug\netcoreapp3.0\Events.runtimeconfig.dev.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\bin\Debug\netcoreapp3.0\Events.dll
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\bin\Debug\netcoreapp3.0\Events.pdb
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\obj\Debug\netcoreapp3.0\Events.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\obj\Debug\netcoreapp3.0\Events.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\obj\Debug\netcoreapp3.0\Events.AssemblyInfo.cs
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\obj\Debug\netcoreapp3.0\Events.dll
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Events\Events\obj\Debug\netcoreapp3.0\Events.pdb
