@@ -1,0 +1,11 @@
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\bin\Debug\netcoreapp3.0\Indexers.exe
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\bin\Debug\netcoreapp3.0\Indexers.deps.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\bin\Debug\netcoreapp3.0\Indexers.runtimeconfig.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\bin\Debug\netcoreapp3.0\Indexers.runtimeconfig.dev.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\bin\Debug\netcoreapp3.0\Indexers.dll
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\bin\Debug\netcoreapp3.0\Indexers.pdb
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\obj\Debug\netcoreapp3.0\Indexers.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\obj\Debug\netcoreapp3.0\Indexers.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\obj\Debug\netcoreapp3.0\Indexers.AssemblyInfo.cs
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\obj\Debug\netcoreapp3.0\Indexers.dll
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\Indexers\Indexers\obj\Debug\netcoreapp3.0\Indexers.pdb
