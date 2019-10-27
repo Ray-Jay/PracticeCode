@@ -1,0 +1,15 @@
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\Grains.deps.json
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\Grains.runtimeconfig.json
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\Grains.runtimeconfig.dev.json
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\Grains.dll
+C:\Users\Apprenti3\Exercism\csharp\grains\bin\Debug\netcoreapp2.1\Grains.pdb
+C:\Users\Apprenti3\Exercism\csharp\grains\obj\Debug\netcoreapp2.1\Grains.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Exercism\csharp\grains\obj\Debug\netcoreapp2.1\Grains.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Exercism\csharp\grains\obj\Debug\netcoreapp2.1\Grains.AssemblyInfo.cs
+C:\Users\Apprenti3\Exercism\csharp\grains\obj\Debug\netcoreapp2.1\Grains.dll
+C:\Users\Apprenti3\Exercism\csharp\grains\obj\Debug\netcoreapp2.1\Grains.pdb
