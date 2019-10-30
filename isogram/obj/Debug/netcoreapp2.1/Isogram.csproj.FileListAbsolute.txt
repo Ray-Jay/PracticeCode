@@ -1,0 +1,15 @@
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\Isogram.deps.json
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\Isogram.runtimeconfig.json
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\Isogram.runtimeconfig.dev.json
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\Isogram.dll
+C:\Users\Apprenti3\Exercism\csharp\isogram\bin\Debug\netcoreapp2.1\Isogram.pdb
+C:\Users\Apprenti3\Exercism\csharp\isogram\obj\Debug\netcoreapp2.1\Isogram.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Exercism\csharp\isogram\obj\Debug\netcoreapp2.1\Isogram.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Exercism\csharp\isogram\obj\Debug\netcoreapp2.1\Isogram.AssemblyInfo.cs
+C:\Users\Apprenti3\Exercism\csharp\isogram\obj\Debug\netcoreapp2.1\Isogram.dll
+C:\Users\Apprenti3\Exercism\csharp\isogram\obj\Debug\netcoreapp2.1\Isogram.pdb
