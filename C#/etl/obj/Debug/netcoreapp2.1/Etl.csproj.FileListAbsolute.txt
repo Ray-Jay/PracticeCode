@@ -1,0 +1,15 @@
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\Etl.deps.json
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\Etl.runtimeconfig.json
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\Etl.runtimeconfig.dev.json
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\Etl.dll
+C:\Users\Apprenti3\Exercism\csharp\etl\bin\Debug\netcoreapp2.1\Etl.pdb
+C:\Users\Apprenti3\Exercism\csharp\etl\obj\Debug\netcoreapp2.1\Etl.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Exercism\csharp\etl\obj\Debug\netcoreapp2.1\Etl.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Exercism\csharp\etl\obj\Debug\netcoreapp2.1\Etl.AssemblyInfo.cs
+C:\Users\Apprenti3\Exercism\csharp\etl\obj\Debug\netcoreapp2.1\Etl.dll
+C:\Users\Apprenti3\Exercism\csharp\etl\obj\Debug\netcoreapp2.1\Etl.pdb

@@ -1,0 +1,11 @@
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\bin\Debug\netcoreapp3.0\QueryExpressions.exe
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\bin\Debug\netcoreapp3.0\QueryExpressions.deps.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\bin\Debug\netcoreapp3.0\QueryExpressions.runtimeconfig.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\bin\Debug\netcoreapp3.0\QueryExpressions.runtimeconfig.dev.json
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\bin\Debug\netcoreapp3.0\QueryExpressions.dll
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\bin\Debug\netcoreapp3.0\QueryExpressions.pdb
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\obj\Debug\netcoreapp3.0\QueryExpressions.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\obj\Debug\netcoreapp3.0\QueryExpressions.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\obj\Debug\netcoreapp3.0\QueryExpressions.AssemblyInfo.cs
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\obj\Debug\netcoreapp3.0\QueryExpressions.dll
+C:\Users\Apprenti3\Documents\Visual Studio 2019\Projects\QueryExpressions\QueryExpressions\obj\Debug\netcoreapp3.0\QueryExpressions.pdb
