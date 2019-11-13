@@ -1,0 +1,13 @@
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\Bob.deps.json
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\Bob.runtimeconfig.json
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\Bob.runtimeconfig.dev.json
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\Bob.dll
+C:\Users\Apprenti3\Exercism\csharp\bob\bin\Debug\netcoreapp2.1\Bob.pdb
+C:\Users\Apprenti3\Exercism\csharp\bob\obj\Debug\netcoreapp2.1\Bob.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Exercism\csharp\bob\obj\Debug\netcoreapp2.1\Bob.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Exercism\csharp\bob\obj\Debug\netcoreapp2.1\Bob.AssemblyInfo.cs
+C:\Users\Apprenti3\Exercism\csharp\bob\obj\Debug\netcoreapp2.1\Bob.dll
+C:\Users\Apprenti3\Exercism\csharp\bob\obj\Debug\netcoreapp2.1\Bob.pdb
