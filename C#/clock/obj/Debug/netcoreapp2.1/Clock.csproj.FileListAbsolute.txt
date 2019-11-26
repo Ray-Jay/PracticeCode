@@ -1,0 +1,13 @@
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\Clock.deps.json
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\Clock.runtimeconfig.json
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\Clock.runtimeconfig.dev.json
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\Clock.dll
+C:\Users\Apprenti3\Exercism\csharp\clock\bin\Debug\netcoreapp2.1\Clock.pdb
+C:\Users\Apprenti3\Exercism\csharp\clock\obj\Debug\netcoreapp2.1\Clock.csprojAssemblyReference.cache
+C:\Users\Apprenti3\Exercism\csharp\clock\obj\Debug\netcoreapp2.1\Clock.AssemblyInfoInputs.cache
+C:\Users\Apprenti3\Exercism\csharp\clock\obj\Debug\netcoreapp2.1\Clock.AssemblyInfo.cs
+C:\Users\Apprenti3\Exercism\csharp\clock\obj\Debug\netcoreapp2.1\Clock.dll
+C:\Users\Apprenti3\Exercism\csharp\clock\obj\Debug\netcoreapp2.1\Clock.pdb
