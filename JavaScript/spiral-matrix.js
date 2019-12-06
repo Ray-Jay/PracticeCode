@@ -1,7 +1,7 @@
 export class SpiralMatrix {
   static ofSize(size) {
     let spiral = new Array(size);
-    for (var i = 0; i < size; i++) {
+    for (let i = 0; i < size; i++) {
       spiral[i] = [];
     }
     let totalElements = size * size;
