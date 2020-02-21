@@ -1,0 +1,150 @@
+body{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background-image: url("blankPuzzle.jpg");
+  background-size: 2000px;
+}
+
+/* p{
+  right:10px;
+} */
+
+#introScreen 
+{
+   margin: 50px auto;
+   width: 800px;
+   height: 625px;
+   position: relative;
+   background-color: #0d152a;
+   font-family: 'Oswald', sans-serif;
+   color: white;
+}
+
+#title {
+	font-size: 100px;
+	line-height: 1.3em;
+	font-family: 'Candal', sans-serif;
+}
+
+#introScreen img {
+  float: left;
+  margin: 5px 20px 20px 5px;
+  width: 400px;
+}
+
+#introScreen h3 {
+	clear: both;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+#introScreen p {
+	clear: both;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#introScreen div {
+	margin-top: 15px;
+  text-align: center;
+}
+
+#form {
+  width: 320px;
+  margin: 0 auto;
+}
+
+legend {
+  background-color: white;
+  color: #0d152a;
+  padding: 3px 6px;
+  border: solid 1px black;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+fieldset {
+  width: max-content;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+button {
+	font-size: 150%;
+	padding: 4px 8px;
+	cursor: pointer;
+	color: green;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	background: -webkit-linear-gradient(top, #a3a3a3, #000);
+	background: -moz-linear-gradient(top, #a3a3a3, #000);
+	background: linear-gradient(top, #a3a3a3, #000);
+
+	-webkit-box-shadow: 0px 5px 8px 3px rgba(255,255,255,0.3);
+	-moz-box-shadow: 0px 5px 8px 3px rgba(255,255,255,0.3);
+	box-shadow: 0px 5px 8px 3px rgba(255,255,255,0.3);
+}
+
+button:hover {
+	background: -webkit-linear-gradient(top, #acc7a3, #506651);
+	background: -moz-linear-gradient(top, #acc7a3, #506651);
+	background: linear-gradient(top, #acc7a3, #506651);	
+}
+
+#puzzle
+{
+
+  margin: 25px auto;
+  display: none;
+  text-align: center;
+}
+#information{
+  width: 280px;
+  max-width:280px;
+}
+#information p{
+  background: 'white';
+  
+}
+#hurry{
+  display: none;
+}
+#lose{
+  display: none;
+}
+
+#loading{
+  display: block;
+  position: absolute;
+  left: 35%;
+}
+
+#timeDisplay, #score {
+  /* float: left; */
+  /* margin-right: 10px; */
+  /* margin-bottom: 10px; */
+  max-height: 120px;
+  max-width: 100px;
+	font-size: 150%;
+	padding: 4px 8px;
+	cursor: pointer;
+	color: white;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	background: -webkit-linear-gradient(top, #a3a3a3, #000);
+	background: -moz-linear-gradient(top, #a3a3a3, #000);
+	background: linear-gradient(top, #a3a3a3, #000);
+
+	-webkit-box-shadow: 0px 5px 8px 3px rgba(255,255,255,0.3);
+	-moz-box-shadow: 0px 5px 8px 3px rgba(255,255,255,0.3);
+  box-shadow: 0px 5px 8px 3px rgba(255,255,255,0.3);
+}

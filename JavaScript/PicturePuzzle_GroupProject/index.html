@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PicPuzzle</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="PicPuzzle.css">
+</head>
+
+
+<body>
+
+  <!-- intro screen with instructions and selections -->
+  <section id="introScreen">
+    <img src="puzzleRecording.gif" alt="video of puzzle being solved" controls style="display: block;">
+    <span id="title">Picture<br>Puzzle</span>
+    <h3>How to play:</h3>
+    <p>Select two tiles to swap the puzzle pieces to re-assemble the picture before the timer runs out.
+      Select the type of puzzle below. Good luck!</p>
+    <form id='form'>
+      <fieldset>
+        <legend>Selections:</legend>
+        <div>
+          Difficulty:
+          <input type="radio" id="difficultyChoice1" name="difficulty" value="3" checked>
+          <label for="difficultyChoice1">Easy</label>
+
+          <input type="radio" id="difficultyChoice2" name="difficulty" value="4">
+          <label for="difficultyChoice2">Medium</label>
+
+          <input type="radio" id="difficultyChoice3" name="difficulty" value="5">
+          <label for="difficultyChoice3">Hard</label>
+        </div>
+        <div>
+          Category:
+          <input type="radio" id="categoryChoice1" name="category" value="food" checked>
+          <label for="categoryChoice1">Food</label>
+
+          <input type="radio" id="categoryChoice2" name="category" value="movies">
+          <label for="categoryChoice2">Movies</label>
+
+          <input type="radio" id="categoryChoice3" name="category" value="space">
+          <label for="categoryChoice3">Space</label>
+        </div>
+        <div>
+          <button type="submit">Get Started!</button>
+        </div>
+      </fieldset>
+    </form>
+    <p>© 2019 - Barta, Dovgal, Jones & Associates</p>
+  </section>
+
+  <section id="puzzle">
+    <div id="information">
+      <iframe id='lose' src="https://giphy.com/embed/FgjKGypLCAety" width="100%" height="480" frameBorder="0"
+        class="giphy-embed" allowFullScreen></iframe>
+      <iframe id='hurry' src="https://giphy.com/embed/CpgNjk2E54p7W" width="100%" height="480" frameBorder="0"
+        class="giphy-embed" allowFullScreen></iframe>
+    </div>
+
+    <div>
+      <div id="timeDisplay"></div>
+      <div id="score"></div>
+    </div>
+
+    <div id="puzzleDisplay"><canvas id="canvas1"></canvas></div>
+
+    <iframe id="loading" src="https://giphy.com/embed/3NwOyKt1n7S6KccVQg" width="480" height="480" frameBorder="0"
+      class="giphy-embed" allowFullScreen></iframe>
+
+    <!-- Audio Files -->
+    <audio id="puzzleSound" src="/Tetris.mp3" type="audio/mpeg" loop></audio>
+    <audio id="winSound" src="/cheering.mp3" type="audio/mpeg"></audio>
+    <audio id="loseSound" src="/lose.mp3" type="audio/mpeg"></audio>
+
+    <div id="mouseDiv" style="display: none; top:0px; right:10px; position:absolute;">
+      <p id="mouseCoords">Mouse Coords: </p>
+    </div>
+  </section>
+
+</body>
+<script type="module" src="./PicPuzzle.js"></script>
+
+</html>
