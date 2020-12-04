@@ -58,12 +58,8 @@ public class Stack<T>
     }
 
     // shows top item in stack, without removing.
-    // lessons learned: check to make sure there's something in the queue
     public T Peek()
     {
-        // check for items in queue before processing
-        if (q1.Count == 0) { return default; }
-
         T item = Pop();
         Push(item);
 
