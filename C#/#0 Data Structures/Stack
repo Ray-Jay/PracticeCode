@@ -1,0 +1,72 @@
+using System.Collections.Generic;
+
+public class Stack<T>
+{
+    // fields
+    Queue<T> q1;
+    Queue<T> q2;
+
+    // property
+    public int Count
+    {
+        get { return q1.Count; }
+    }
+
+    // constructor
+    // lessons learned: the default type<T> is not included in the constructor
+    public Stack()
+    {
+        q1 = new Queue<T>();
+        q2 = new Queue<T>();
+    }
+
+    // methods
+
+    // puts item on stack
+    public void Push(T item)
+    {
+        q1.Enqueue(item);
+    }
+
+    // removes top item from stack
+    // lessons learned: check to make sure there's something in the queue
+    public T Pop()
+    {
+        // check for items in queue before processing
+        if (q1.Count == 0) { return default; }
+
+        // move all items, except the last one, from q1 to q2
+        // lessons learned: the count will change with each iteration. Make sure to save as a variable
+        int q1Count = q1.Count;
+        for (int i = 0; i < q1Count - 1; i++)
+        {
+            q2.Enqueue(q1.Dequeue());
+        }
+
+        // move the last item in q1 to variable
+        T item = q1.Dequeue();
+
+        // move all items from q2 to q1
+        // lessons learned: the count will change with each iteration. Make sure to save as a variable
+        int q2Count = q2.Count;
+        for (int i = 0; i < q2Count; i++)
+        {
+            q1.Enqueue(q2.Dequeue());
+        }
+
+        return item;
+    }
+
+    // shows top item in stack, without removing.
+    // lessons learned: check to make sure there's something in the queue
+    public T Peek()
+    {
+        // check for items in queue before processing
+        if (q1.Count == 0) { return default; }
+
+        T item = Pop();
+        Push(item);
+
+        return item;
+    }
+}
