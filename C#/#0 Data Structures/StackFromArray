@@ -1,0 +1,51 @@
+using System;
+
+public class Stack<T>
+{
+    // fields
+    private T[] array;
+    private readonly int maxSize;
+
+    // properties
+    public int Count { get; private set; }
+
+    // constructors
+    public Stack(int size)
+    {
+        array = new T[size];
+        Count = 0;
+        maxSize = size;
+    }
+
+    // methods
+    // add item to stack if there is space
+    public void Push(T item)
+    {
+        if (Count < maxSize)
+        {
+            array[Count] = item;
+            Count++;
+        }
+        else
+        {
+            Console.WriteLine("Stack is full. Element NOT added");
+        }
+    }
+
+    // return top item of stack, if populated, and remove from stack
+    public T Pop()
+    {
+        if (Count == 0) { throw new InvalidOperationException("Invalid Operation. Stack is empty."); }  // lessons learned: throw is lowercase. don't forget "new"
+
+        Count--;
+        return array[Count];
+    }
+
+    // return top item of stack, if populated, but don't remove from stack
+    public T Peek()
+    {
+        T result = Pop();
+        Push(result);
+        return result;
+    }
+}
