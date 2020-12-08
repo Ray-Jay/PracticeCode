@@ -29,9 +29,9 @@ public class Stack<T>
     {
         if (list.Count == 0) { throw new InvalidOperationException("Invalid Pop Operation. Stack is empty."); }
 
-        LinkedListNode<T> node = list.First;
+        T item = list.First.Value;
         list.RemoveFirst();
-        return node.Value;
+        return item;
     }
 
     public T Peek()
