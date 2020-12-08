@@ -3,8 +3,8 @@ using System.Collections.Generic;
 public class Stack<T>
 {
     // fields
-    Queue<T> q1;
-    Queue<T> q2;
+    private Queue<T> q1;
+    private Queue<T> q2;
 
     // property
     public int Count
