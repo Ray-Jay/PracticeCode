@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class Stack<T>
 {
     // fields
-    LinkedList<T> list;
+    private LinkedList<T> list;
 
     // properties
     public int Count
