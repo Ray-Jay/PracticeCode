@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+
+public class Stack<T>
+{
+    // fields
+    LinkedList<T> list;
+
+    // properties
+    public int Count
+    {
+        get { return list.Count; }
+    }
+
+    // constructors
+    public Stack()
+    {
+        list = new LinkedList<T>();
+    }
+
+    // methods
+    public void Push(T item)
+    {
+        LinkedListNode<T> node = new LinkedListNode<T>(item);
+        list.AddFirst(node);
+    }
+
+    public T Pop()
+    {
+        if (list.Count == 0) { throw new InvalidOperationException("Invalid Pop Operation. Stack is empty."); }
+
+        LinkedListNode<T> node = list.First;
+        list.RemoveFirst();
+        return node.Value;
+    }
+
+    public T Peek()
+    {
+        if (list.Count == 0) { throw new InvalidOperationException("Invalid Peek Operation. Stack is empty."); }
+
+        return list.First.Value;
+    }
+}
