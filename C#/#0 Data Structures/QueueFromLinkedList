@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+
+// implement a Queue data structure using a linked list
+public class Queue<T>
+{
+    // fields
+    LinkedList<T> ll;
+
+    // properties
+    public int Count { get { return ll.Count; } }
+
+    // constructors
+    public Queue()
+    {
+        ll = new LinkedList<T>();
+    }
+
+    // methods
+    public void Enqueue(T item)
+    {
+        ll.AddLast(item);
+    }
+
+    public T Dequeue()
+    {
+        if (ll.Count == 0) { throw new InvalidOperationException("Invalid Operation. Queue is empty."); }
+
+        T item = ll.First.Value; // lessons learned: First property returns a node, then you can get the value;
+        ll.RemoveFirst(); // lessons learned: RemoveFirst method does NOT return a value;
+        return item;
+    }
+}
