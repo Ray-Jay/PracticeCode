@@ -1,0 +1,53 @@
+using System;
+
+// implement a Queue (bound by size), using an array
+public class QueueArray<T>
+{
+    // fields
+    T[] arr;
+    int front;
+    int end;
+    int max;
+
+    // properties
+    public int Count { get { return end; } }
+
+    // constructors
+    public QueueArray(int size)
+    {
+        arr = new T[size];
+        front = 0;
+        end = 0;
+        max = size;
+    }
+
+    // methods
+    public void Enqueue(T item)
+    {
+        if (end == max)
+        {
+            Console.WriteLine("Queue is full. Item NOT added.");
+        }
+        else
+        {
+            arr[end] = item;
+            end++;
+        }
+    }
+
+    public T Dequeue()
+    {
+        if (end == 0) { throw new InvalidOperationException("Queue is empty."); }
+
+        T item = arr[front];
+
+        // shift everything left
+        for (int i = 1; i < end; i++)
+        {
+            arr[i - 1] = arr[i];
+        }
+        end--;
+
+        return item;
+    }
+}
