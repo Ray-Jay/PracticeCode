@@ -1,0 +1,108 @@
+using System;
+using System.Collections.Generic;
+
+// Create a structure that behaves like a dictionary for anagrams with the following 4 methods:
+// Insert (returns void), Contains (return bool), ContainsAnagram (returns bool), Delete (returns void)
+
+// Expected Results: 
+//   Insert(dog)
+//   Contains(Dog) -> true
+//   ContainsAnagram(God) -> true
+//   ContainsAnagram(dog) -> true
+//   Delete(odg)
+//   Delete(Dog)
+//   Delete(Dog)
+//   
+// To Consider: 
+//   empty or null strings
+//   case of word
+
+// To Test:
+//   null
+//   empty string
+//   whitespace
+//   1 char
+//   numbers as strings
+//   dog/God; 
+
+public class AnagramDictionary
+{
+    // fields
+    HashSet<string> words;
+    Dictionary<string, int> anagrams;
+
+    // properties
+    public int Count
+    {
+        get
+        {
+            return words.Count;
+        }
+    }
+
+    // constructors
+    public AnagramDictionary()
+    {
+        words = new HashSet<string>();
+        anagrams = new Dictionary<string, int>();
+    }
+
+    // methods
+    public void Insert(string word)
+    {
+        ValidateInput(word);
+
+        // add to Set of seen words
+        word = word.ToLower();
+        bool added = words.Add(word);
+
+        // if new word, add to dictionary of sorted words
+        if (added)
+        {
+            string sortedWord = SortWord(word);
+            anagrams[sortedWord] = anagrams.ContainsKey(sortedWord) ? ++anagrams[sortedWord] : 1;
+        }
+    }
+
+    public bool Contains(string word)
+    {
+        ValidateInput(word);
+
+        return words.Contains(word.ToLower());
+    }
+
+    public bool ContainsAnagram(string word)
+    {
+        ValidateInput(word);
+
+        string sortedWord = SortWord(word.ToLower());
+        return anagrams.ContainsKey(sortedWord);
+    }
+
+    public void Delete(string word)
+    {
+        ValidateInput(word);
+
+        if (Contains(word))
+        {
+            words.Remove(word.ToLower());
+            string sortedWord = SortWord(word.ToLower());
+            anagrams[sortedWord]--;
+        }
+    }
+
+    private void ValidateInput(string word)
+    {
+        if (string.IsNullOrWhiteSpace(word))
+        {
+            throw new ArgumentException("Input must have a value.");
+        }
+    }
+
+    private string SortWord(string word)
+    {
+        char[] letters = word.ToCharArray();
+        Array.Sort(letters);
+        return string.Concat(letters);
+    }
+}
