@@ -1,0 +1,35 @@
+// given a string check if any **permutations** are a palindrome
+// palindrome: same backward and forward
+// permutations - may not come in as palindrome, but could be rearranged to be one
+// ex. mom, omm; maam, mama; mommmo, abba, abbbba, civic, I, aa, 
+// not ex.  dog, moon, ab
+// for mom & omm, 2-m's 1 -o
+// for maam & mama, 2-m's 2-a's
+// for moon, 1-m 1-n 2-o's
+// just a method
+// input: will be at least 1 character
+// output: boolean
+// string is length 1, then true
+// can use any data structure
+// Dictionary <char, int>
+// if letter count is even, delete from dictionary, when done, if only have 0 or 1 odds, return true, else false
+
+public bool IsPalindrome(string word) 
+{
+    Dictionary<char, int> letters = new Dictionary<char, int>();
+
+    foreach (char c in word)
+		{
+				letters[c] = letters.ContainsKey(c) ? ++letters[c] : 1;
+		}
+
+		foreach (var kvp in letters)
+		{
+		  	if (letters[kvp.Key] % 2 == 0)
+				{
+				    letters.Remove(kvp.Key);
+				}
+		}
+
+			return letters.Count < 2;
+		}
